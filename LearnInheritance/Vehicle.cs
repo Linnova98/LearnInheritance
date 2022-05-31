@@ -8,7 +8,7 @@ namespace LearnInheritance
     */
     abstract class Vehicle 
     {
-        //Her må vi da deklarere alle variablene
+        //Her må vi da deklarere alle verdiene.
         public string LicensePlate
         { get; private set; }
 
@@ -18,7 +18,7 @@ namespace LearnInheritance
         public int Wheels
         { get; protected set; }
 
-        //Dette er konstruktøren til Vehicle(hovedklassen). Det viktige fra denne er at den må ha "speed" i parameteret, som man ser i de andre klassene også.
+        //Dette er konstruktoren til Vehicle(hovedklassen). Det viktige fra denne er at den må ha "speed" i parameteret, som man ser i de andre klassene også.
         public Vehicle(double speed)
         {
             //Speed blir da satt ut i fra tallet(double) som blir satt i parameteret.

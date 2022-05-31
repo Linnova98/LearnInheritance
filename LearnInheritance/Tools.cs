@@ -18,7 +18,7 @@ namespace LearnInheritance
             //For loop som går 8 ganger for å få en lisenceplate som har 8 tegn.
             for (int i = 0; i < 8; i++)
             {
-                //Her legger man til en karater fra chars, og den er rand(random) hver gang.
+                //Her legger man til en karkater fra chars, og den er rand(random) hver gang.
                 //Istedet for å telle hvor mange tegn det er i chars tar man Next(int) med chars.Length.
                 //Da leser den max value til chars og returner det i en int til Next(int) så velger den random en karakter fra chars.
                 //Next(int) = Returns a positive random integer that is less than the specified maximum value.

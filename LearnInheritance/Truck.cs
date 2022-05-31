@@ -3,15 +3,15 @@
 namespace LearnInheritance
 {
     /*
-    Denne klassen arver fra Vehicle.cs og implimenterer fra IAutomobile.cs. Når vi jobber med arv har vi to kategorier på klassene:
+    Denne klassen arver fra Vehicle.cs og implementerer fra IAutomobile.cs. Når vi jobber med arv har vi to kategorier på klassene:
     Derived Class (child) - the class that inherits from another class.
     Base Class (parent) - the class being inherited from.
     I dette prosjektet blir Vehicle (parent) og Truck (child).
-    For å arve og eller implimentere bruker man ":" kolon. Denne klassen arver fra Vehicle.cs og implimenterer fra IAutomobile som blir skilt av med "," komma.
+    For å arve og eller implementere bruker man ":" kolon. Denne klassen arver fra Vehicle.cs og implementerer fra IAutomobile som blir skilt av med "," komma.
      */
     class Truck : Vehicle, IAutomobile
     {
-        //Siden denne klassen regner ut antall dekk på vekten til lastebilen i dette tilfellet må vi deklarere Weight her.
+        //Siden denne klassen regner ut antall dekk på vekten til lastebilen i dette tilfellet må vi deklarere "Weight" her.
         public double Weight
         { get; }
 
