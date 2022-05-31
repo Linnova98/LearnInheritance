@@ -35,7 +35,7 @@ namespace LearnInheritance
             Speed += 5;
         }
 
-        //Denne metoden fungerer helt likt som SpeedUp(), men i stedet synker veriden/farten med x.
+        //Denne metoden fungerer helt likt som SpeedUp(), men i stedet synker veriden/farten med 5.
         public virtual void SlowDown()
         {
             Speed -= 5;
