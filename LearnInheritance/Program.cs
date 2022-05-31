@@ -2,6 +2,7 @@
 /*
 Dette er et prosjekt fra Codecademy.com for å vise enkelt hvordan inheritance fungerer.
 Anbefaler å starte med å se gjennom filene i rekkefølgen: IAutomobile.cs - Vehicle.cs - Sedan.cs - Truck.cs.
+IAutomobile er et interface. Det er normalt å kalle interface klassene med stor "I" foran.
 Tools.cs er bare for å få tilfeldig genererte skiltnummer.
 
 Her i Program.cs kaller man på nye instanser av klassene for å lage objekter av de, og man kaller på de forskjellige metodene. 

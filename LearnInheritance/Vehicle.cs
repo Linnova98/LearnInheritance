@@ -2,9 +2,10 @@
 
 namespace LearnInheritance
 {
-    //Denne klassen er abstract og det er denne klassen vi skal arve fra i de andre klassene vi skal lage. Denne klassen inneholder alt det vi trenger av info for alle kjøretøyene i vår kode.
-    //Forklaring på abstract fra W3Schools.
-    //Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+    /*Denne klassen er abstract og det er denne klassen vi skal arve fra i de andre klassene vi skal lage. Denne klassen inneholder alt det vi trenger av info for alle kjøretøyene i vår kode.
+    Forklaring på abstract fra W3Schools.
+    Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+    */
     abstract class Vehicle 
     {
         //Her må vi da deklarere alle variablene
